@@ -1,0 +1,20 @@
+/* {} */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform .5s;
+}
+
+.card:hover {
+
+}
