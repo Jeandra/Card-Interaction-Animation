@@ -29,3 +29,7 @@ card::before {
     rgba(0,0,0,0.4), #000);
     transition: transform 0.25s;
 }
+
+.card:hover::before {
+    transform: scaleY(1);
+}
